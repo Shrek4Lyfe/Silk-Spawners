@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"sp_placedPigSpawner": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spawner",
+					"nbt": "{BlockEntityTag:{SpawnData:{id:\"minecraft:pig\"},SpawnPotentials:[]}}"
+					}
+				}
+			}
+		},
+	"rewards": {
+		"function": "silkspawners:placespawner/trigger_function"
+	}
+}

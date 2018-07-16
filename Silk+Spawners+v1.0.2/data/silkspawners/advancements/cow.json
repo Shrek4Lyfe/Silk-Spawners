@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"sp_placedCowSpawner": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spawner",
+					"nbt": "{BlockEntityTag:{SpawnData:{id:\"minecraft:cow\"},SpawnPotentials:[]}}"
+					}
+				}
+			}
+		},
+	"rewards": {
+		"function": "silkspawners:placespawner/trigger_function"
+	}
+}

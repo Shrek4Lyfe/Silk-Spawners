@@ -1,0 +1,2 @@
+execute as @s if entity @s[distance=..6] if block ~ ~ ~ minecraft:spawner run function silkspawners:getspawnertype
+execute as @s if entity @s[distance=..6] unless block ~ ~ ~ minecraft:spawner positioned ^ ^ ^0.1 run function silkspawners:ray

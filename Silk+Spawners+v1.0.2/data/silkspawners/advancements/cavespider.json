@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"sp_placedCaveSpiderSpawner": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spawner",
+					"nbt": "{BlockEntityTag:{SpawnData:{id:\"minecraft:cave_spider\"},SpawnPotentials:[]}}"
+					}
+				}
+			}
+		},
+	"rewards": {
+		"function": "silkspawners:placespawner/trigger_function"
+	}
+}
